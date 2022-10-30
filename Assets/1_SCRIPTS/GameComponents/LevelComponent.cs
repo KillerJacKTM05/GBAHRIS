@@ -4,6 +4,7 @@ using UnityEngine;
 using SafeZone;
 public class LevelComponent : MonoBehaviour
 {
+    public Light environmentLight;
     // Start is called before the first frame update
     void Start()
     {

@@ -26,11 +26,13 @@ namespace SafeZone
         public CanvasGroup m_menuGroup;
 
         [Header("Canvas Panels")]
-        public CanvasGroup m_inventoryGroup;
         public CanvasGroup m_interactionGroup;
         public CanvasGroup m_inGameGroup;
         public CanvasGroup m_menuCanvasGroup;
         public CanvasGroup m_settingsGroup;
+
+        [Header("Script Refs")]
+        public InGameUI InGameUI;
     }
 }
 

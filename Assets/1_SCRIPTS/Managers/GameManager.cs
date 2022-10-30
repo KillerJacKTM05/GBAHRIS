@@ -21,9 +21,11 @@ namespace SafeZone
 
         }
         [SerializeField] private GameSettings gameSettings;
+        private LevelComponent activeLevel;
+        private string currentTime = "08:00AM";
         void Start()
         {
-
+            
         }
 
         // Update is called once per frame
@@ -35,6 +37,10 @@ namespace SafeZone
         {
             return gameSettings;
         }
+        /*private IEnumerator GameDayCycle()
+        {
+
+        }*/
     }
 }
 

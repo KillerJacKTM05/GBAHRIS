@@ -9,8 +9,9 @@ public class GameSettings : BaseScriptable
     [Header("General")]
     public int ID = 0;
     public List<Level> levelList = new List<Level>();
+    [Range(0, 600f)]public float realWorldTimeForEachGameHour = 300f;
 
     [Header("Player Specs")]
-    [Range(0, 45f)] public float playerLookSensivity = 33f;
+    [Range(0, 45f)] public float playerRotateSensivity = 33f;
     [Range(0, 45f)] public float playerMoveSpeed = 3f;
 }

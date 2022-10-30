@@ -15,5 +15,6 @@ MonoBehaviour:
   ID: 0
   levelList:
   - {fileID: 11400000, guid: 79277bdc46208834db8b76e55a9bf20e, type: 2}
-  playerLookSensivity: 33
-  playerMoveSpeed: 3
+  realWorldTimeForEachGameHour: 60
+  playerRotateSensivity: 0.2
+  playerMoveSpeed: 1
